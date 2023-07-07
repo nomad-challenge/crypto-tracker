@@ -24,9 +24,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp ./build/index.html ./build/404.html",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +48,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nomad-challange.github.io",
+  "homepage": "https://nomad-challange.github.io/crypto-tracker",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }

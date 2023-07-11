@@ -48,7 +48,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nomad-challange.github.io/crypto-tracker",
+  "homepage": "https://nomad-challenge.github.io/crypto-tracker",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
